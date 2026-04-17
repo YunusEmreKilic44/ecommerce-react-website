@@ -10,8 +10,12 @@ const Navbar = () => {
           ShopHub
         </Link>
         <div className="navbar-links">
-          <Link to="/">Home</Link>
-          <Link to="/checkout">Cart</Link>
+          <Link className="navbar-link" to="/">
+            Home
+          </Link>
+          <Link className="navbar-link" to="/checkout">
+            Cart
+          </Link>
         </div>
         <div className="navbar-auth">
           {!user ? (
